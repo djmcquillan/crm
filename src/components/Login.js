@@ -10,8 +10,11 @@ const LoginButton = MKButton.coloredButton()
 
 const styles = StyleSheet.create({
     form: {
-        paddingBottom: 10,
-        width: 200,
+        // paddingBottom: 10,
+        // width: 200,
+                flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
     },
     fieldStyles: {
         height: 40,
@@ -22,7 +25,7 @@ const styles = StyleSheet.create({
         marginTop: 20,
     },
     container: {
-    flex: 1,
+        flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: '#F5FCFF',

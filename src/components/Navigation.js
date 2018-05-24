@@ -8,15 +8,11 @@ const Navigation = TabNavigator({
     AddPerson: { screen: AddPerson },
     CompanyList: { screen: CompanyList },
 }, {
-    tabBarPosition: 'bottom',
     tabBarOptions: {
         activeTintColor: 'white',
         inactiveTintColor: '#80cbc4',
         swipeEnabled: true,
-        animationEnabled: false,
         showLabel: false,
-        showIcon: true,
-        lazy: false,
         style: {
             backgroundColor: '#26a69a',
         },

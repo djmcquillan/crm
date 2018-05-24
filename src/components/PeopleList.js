@@ -14,6 +14,8 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
     paddingTop: 20,
     paddingLeft: 20,
+    alignItems: 'center',
+    justifyContent: 'center'
   },
 });
 
